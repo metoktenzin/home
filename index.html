@@ -9,7 +9,13 @@
 		
 			body 
 			{	
-				background-color: rgb(240, 240, 240);
+				background-color: rgb(230, 220, 230);
+				margin-bottom: 8px;
+				margin-left: 90px;
+				margin-right: 8px;
+				margin-top: 20px;
+				width: 1100px;
+				justify-content: space-between;
 			}
 	
 			.header {
@@ -35,14 +41,36 @@
 			
 			p {
 				font-family: Monaco, Monospace;
-				font-size:25px;
+				font-size: 22px;
 				color: rgb(90, 90, 90);
 			}
 			
+			img {
+				border-style: dashed;
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 5px;
+				border: solid black 1px;
+				padding: 2px;
+			}
+
+			#sources {
+				border-style: solid;
+				padding:40px;
+				margin-right: 800px;
+				float:right;
+				text-align: center;
+				background-color:white;
+			}
+			
+			table {
+				background-color: white;
+			}
 		</style>
     </head>
 	<body>
 			<h1 id = "Top" class="header"> &#10032;A Page on all things Related to Chess!&#10032;<h1>
+			<h2 class="header">Content:</h2>
 			<ol>
 			<li> <a href = "#What is Chess">What is Chess</a></li>
 			<li> <a href="#How the Pieces Work">How the Pieces Work </a></li>
@@ -58,60 +86,130 @@
 				<a href="#Chess Players and Ratings">Chess Players and Ratings</a>
 				<ul>
 				<li><a href="#Levels">Levels</a></li>
-				<li><a href="#Renound Players">Renound Players</a></li>
 				</ul>
 			</li>
 			<li><a href="#Where to Start">Where to Start</a></li>
 			</ol>
 			
-			<img src={"./chessimage.jpg"} alt="Chess board"/>
+			<!--This is a list of the content-->
 			
-			<h2 id = "What is Chess" class="header">What is Chess</h2>
-			<p>Chess is a popular board game that is played on a worldwide scale,
-			but is played the most in Russia. It is a competitive game that is played between 
-			two players, and requires both strategy and skill. Although this greatly varies, 
+			<h2 id = "What is Chess" class="header"">What is Chess</h2>
+			<img src ="https://as1.ftcdn.net/jpg/00/01/24/94/220_F_1249442_W6CVWfKz0W2YrAycv5EtCVI6lQMAxc.jpg" width="250" alt="Chessboard">
+			<p> Chess is a popular board game that is played on a worldwide scale
+			but is played the most in Russia. It originates from India, with its first traces dating back to up to 1500 years ago. 
+			Chess is a competitive game that is played between two players and requires both strategy and skill. Although this greatly varies, 
 			each game usually has an average length of 10-20 minutes. These games are played 
 			on a checkerboard and include 32 pieces that are evenly distributed amongst the players.</p>
 			
 			<h2 id="How the Pieces Work" class="header">How the Pieces Work &#9814; &#9812; &#9816;</h2>
-			<p>Although chess pieces may seem intimidating at first, they are really quite simple to learn. 
+			<p>Although chess pieces may seem intimidating at first, they are quite simple to learn. 
 			Each player is dealt 16 pieces of 6 different types. These include: the king, queen, bishop, rook,
-			knight, and pawn. Each of these 6 types of pieces move in their own unique way across the chess board!
-			First, is the king. Even though this is the most important piece in the game, it's one of the weakest 
-			pieces, as it's movement is very restricted. This proves true, as the king can only move within a one 
-			square radius to any direction. The next piece, is the rook. The rook can move in straight lines in any direction, this 
-			can be done for any amount of squares. Another piece, is the bishop. This piece moves diagonally in any directions and 
-			also doesn&rsquo;t have a limit for the amount of squares that can be moved.  </p>
+			knight, and pawn. Each of these 6 types of pieces move in their own unique way across the chessboard!
+			First, is the king. Even though this is the most important piece in the game, it&rsquo;s one of the weakest 
+			pieces, as its movement is very restricted. This proves true, as the king can only move within a one 
+			square radius in any direction. 
+			
+			<p>Second, is the rook. The rook can move in straight lines in any direction, this 
+			can be done for any amount of squares. Another piece is the bishop. This piece moves diagonally in any direction and 
+			also doesn&rsquo;t have a limit for the number of squares that can be moved. </p>
+			
+			<p>The next piece is the pawn. The pawn can
+			move up to 2 squares in its first move, but can only move 1 square for the remainder of the match. It eliminates other 
+			pieces that are diagonally one piece in front of them and can change into any other piece excluding itself and the king 
+			if it successfully moves to the end of the other side of the board. The Knight is a very unique piece because, unlike the other pieces, it can
+			move over other pieces in an enclosed area. It moves in 3 spots straight and one spot to the left in any direction, forming an L shape. Last, 
+			but not least, is the queen, which is a very powerful piece on the board.
+			It doesn&rsquo;t have one set movement pattern but instead utilizes both the bishop&rsquo;s and rook&rsquo;s moving pattern.</p>
 			
 			<h2 id="How to Play" class="header">How to Play</h2>
-			<p> In Chess, the main objective is to checkmate the king. Checkmating occurs when the king is cannot escape an attack with any moves. 
+			<img src="https://as2.ftcdn.net/v2/jpg/01/51/19/89/1000_F_151198978_bydnhJGfsSObpD55hgxS5Cqa9QOcEUZf.jpg" width="200" alt="Chessboard with pieces getting eliminated">
+			<p> In Chess, the main objective is to checkmate your opponent&rsquo;s king. Checkmating occurs when the king is in a position where in the next move 
+			the opposing team can eliminate this piece, and it has to try to get in a position where this cannot happen. When you checkmate them and they 
+			cannot escape an attack with any moves in their next move, then you win. The easiest way to make this happen is by eliminating as many other pieces as possible. 
+			By doing this, you leave a few pieces of your opponent that are able to defend with.</p>
 			
 			<h3 id="Standard Rules" class="header">Standard Rules</h3>
-			<p>Like all games, there are rules that should be followed. Firstly, the player with white pieces must always make the first move.
+			<p>Like all games, some rules that should be followed. Firstly, the player with white pieces must always make the first move.
 			After they move, each player takes a turn to move one piece each time, and they must only move during their turn. 
 			When moving a piece, you must only move your pieces unless you are eliminating one of your opponent's pieces. </p>
 			
 			<h3 id="Strategies and Tactics" class="header"> Strategies and Tactics</h3>
-			<p>There are many different strategies and tactics in chess. </p>
-			These are used to improve your skills as well as your chances of winning. 
+			<p>There are many different strategies and tactics in chess. These are used to improve your skills as well as your chances of winning. 
+			Throughout all the different levels of experience in chess players, these are used everywhere.
+			One of the ways to get better is  by practicing your openings. Openings are the first couple of moves you make in each game, and
+			they determine what the rest of the game will look like. Some examples of different chess openings are Another part of chess that 
+			is also focused on, are the endgames. This is usually more focused on by players of higher skill, as they are a bit more challenging than openings. 
+			Some examples of endgames include </p>
+			
 			<h2 id="Types of Chess" class="header">Types of Chess</h2>
+			<img src="https://somedudesays.com/wp-content/uploads/2021/02/Shatranj.png" width="250" alt="Shatranj">
+			<p> Although we normally focus on the original version of chess, other versions are played significantly more depending on the location. 
+			For example, one that also originates in India is Shatranj. This is an old form of chess that isn&rsquo;t as popular as it was in its time era, which was roughly in 600 AD. 
+			This form of chess is quite similar to the original version, as the only difference was that there were different pieces, but they had relatively similar functions to 
+			our now modern chess. It is believed that this came before chess, as there is a lot of evidence to believe so. This is just one of the many kinds of chess, 
+			for more examples of the different variants and types of chess, visit <a href="https://greenchess.net/variants.php?list">Green Chess</a>.</p>
 			
 			<h2 id="Chess Players and Ratings" class="header">Chess Players and Ratings</h2>
-			<p>Throughout history, there have been a number of renound chess players that have made an impact on chess forever. One of them, being .
+			<p>Throughout history, there have been a number of renowned chess players that have made an impact on chess forever. 
+			All of these players have different levels that distinguish them apart and show their standings.
 
 			<h3 id="Levels" class="header">Levels</h3>
-			
-			<h3 id="Renound Players" class="header">Renound Players</h3>
+			<p>In chess, there are different levels depending on your rating. Usually, beginners have lower ratings and more experienced players have higher ratings. 
+			These are used to determine who you match with in tournaments and other competitive matches.</p>
+			<p>Here&rsquo;s a chart to show how the levels work:</p>
+
+			<table border="3">
+				<tr>
+					<th>Class</th>
+					<th>Rating (usually)</th>
+				</tr>
+				<tr>
+					<td>Grandmasters</td>
+					<td>2500 or higher</td>
+					<td>
+				<tr>
+					<td>International Masters</td>
+					<td> between 2400 and 2500</td>
+				<tr>
+					<td>FIDE Master</td>
+					<td>2300 and 2400</td>
+				<tr>
+					<td>FIDE Candidate Master</td>
+					<td> 2000 and 2200</td>
+				<tr>
+					<td>Class A player</td>
+					<td> 1800 and 1999</td>
+				<tr>
+					<td>Class B player</td>
+					<td>1600 and 1799</td>
+				<tr>
+					<td>Class C player</td>
+					<td>1400 and 1599</td>
+				<tr>
+					<td>Class D player</td>
+					<td> 1200 and 1399</td>
+				<tr>
+					<td>Class E player</td>
+					<td> 1000 and 1199</td>
+			</table>
 			
 			<h2 id="Where to Start" class="header">Where to Start</h2>
 			<p>After all this information, you are probably feeling quite overwhelmed and might not know where 
 			to start in the world of chess, but not to worry! Nowadays there are many new players discovering chess, 
-			so you aren&rsquo;t alone. The easiest way to start, is practicing with people who are around your level. 
-			could be a friend, a sibling, a parent, basically anyone you know. You can also do this online, as there 
-			are many good chess websites that can be used. An example of one, is <a href="https://www.chess.com/">Chess Online</a>. 
-			This is a great website to start at, as it pairs you with people that are around your level, depending on your
+			so you aren&rsquo;t alone. The easiest way to start is by is practicing with people who are around your level. 
+			could be a friend, a sibling, a parent, basically anyone you know. You can also do this online, as as many good chess websites can be used. An example of some, are <a href="https://www.chess.com/">Chess 
+			Online</a> and <a href="https://chess.org/">ChessOrg</a>. 
+			These are great websites to start at, as they pair you with people that are around your level, depending on your
 			rating.</p>
 			
+			<h1 class="header" id="sources"><a href="second.html">Sources</a></h1>
+			
 			<p> Return to the <a href = "#Top">top</a> of the page. </p>
-
+			
+			<a href="http://validator.w3.org/check?uri=https://metoktenzin.github.io/home/">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/1280px-W3C%C2%AE_Icon.svg.png" width="80px" alt="w3c.png validator"> 
+			
+			
+			<a href = "http://jigsaw.w3.org/css-validator/validator?uri=https://metoktenzin.github.io/home/"><img src="https://avatars.githubusercontent.com/u/27466577?v=4" width="80px" alt="css.png validator">
 	</body>
+</html>
